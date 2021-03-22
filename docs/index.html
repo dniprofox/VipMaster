@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vip-Master</title>
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="js/jquery.instagramFeed.min.js">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div id="scroll_top">Вгору<i class="fas fa-long-arrow-alt-right"></i></div>
+  <div class="wrapper">
+    <div class="content">
+      <header class="header">
+        <div class="mobail-menu">
+          <div class="mobail-menu__inner">
+            <ul class="mobail-menu__list">
+              <li class="mobail-menu__item"><a href="#">Головна </a></li>
+              <li class="mobail-menu__item">
+                <a href="#">Шафи-купе<i class="fas fa-angle-down"></i></a>
+              </li>
+              <li class="mobail-menu__item">
+                <a href="#">Модульні системи<i class="fas fa-angle-down"></i></a></li>
+              <li class="mobail-menu__item">
+                <a href="#">Кухні<i class="fas fa-angle-down"></i></a>
+              </li>
+              <li class="mobail-menu__item"><a href="#">Контакти</a></li>
+              <li class="mobail-menu__item"><a href="#">Гарантія</a></li>
+              <li class="mobail-menu__item"><a href="#">Конструктор</a></li>
+              <li class="mobail-menu__item"><a href="#">Розпродаж</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="header-topbar__inner">
+          <div class="container">
+            <div class="header-topbar">
+              <div class="header__social">
+                <a href="#!"><i class="fab fa-facebook-f"></i></a>
+                <a href="#!"><i class="fab fa-instagram"></i></i></a>
+                <a href="#!"><i class="fab fa-youtube"></i></a>
+              </div>
+              <div class="header__logo">
+                <img src="img/header_logo.png" alt="logo">
+              </div>
+              <div class="header__page-box">
+                <div class="header__lang">
+                  <span><a href="#!">УКР</a></span>
+                  <span><a href="#!">РУС</a></span>
+                  <span><a href="#!">EN</a></span>
+                </div>
+                <div class="sale__icon">
+                  <a href="#!"><i class="fa fa-lock" aria-hidden="true"></i></a>
+                  <a href="#!"><i class="fa fa-book" aria-hidden="true"></i></a>
+                </div>
+                <div class="menu__btn">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="menu">
+          <div class="container menu__container">
+            <div class="main-menu__inner">
+              <div class="menu__list-wrapper">
+                <ul class="menu__list">
+                  <li class="menu__list-item">
+                    <a href="#!" class="menu__list-link">ГОЛОВНА</a>
+                  </li>
+                  <li class="menu__list-item shafa__menu">
+                    <a href="#!" class="menu__list-link shafa__link">ШАФИ-КУПЕ<i class="fas fa-angle-down"></i> </a>
+                    <ul class="sub-menu shafa__submenu">
+                      <li class="menu-item"><a href="#!">Фарбована шафа “Марсель”</a></li>
+                      <li class="menu-item"><a href="#!">Шафи-купе «Стандарт»</a></li>
+                      <li class="menu-item"><a href="#!">Шафи-купе «Alto»</a></li>
+                      <li class="menu-item"><a href="#!">Шафи-купе «Доміно»</a></li>
+                      <li class="menu-item"><a href="">Шафи-купе Білий WT, «Рим-Венеціано»</a></li>
+                      <li class="menu-item"><a href="#!">Шафи-купе «Альфа»</a></li>
+                      <li class="menu-item"><a href="#!">Шафи-купе «Омега»</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu__list-item module__menu">
+                    <a href="#!" class="menu__list-link">модульні системі<i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu module__submenu">
+                      <li class="menu-item"><a href="#!">М. С. «Доміно»</a></li>
+                      <li class="menu-item"><a href="#!">М. C. «Доміно Кольорове»</a></li>
+                      <li class="menu-item"><a href="#!">М. С. «Гардеробна»</a></li>
+                      <li class="menu-item"><a href="#!">М. С. «Соломія NEW»</a></li>
+                      <li class="menu-item"><a href="#!">М. С. «СафаріNEW»</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu__list-item kitchen__menu">
+                    <a href="#!" class="menu__list-link">кухні<i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu kitchen__submenu">
+                      <li class="menu-item matt__item"><a href="#">Серія Matt <i class="fa fa-angle-right"
+                            aria-hidden="true"></i></a>
+                        <ul class="sub-menu matt__submenu">
+                          <li class="menu-item moda__item"><a href="#!">Кухня «MoDa» матові декори</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-item fasade__item">
+                        <a href="#">Серія Фарбовані фасади <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        <ul class="sub-menu fasade__submenu">
+                          <li class="menu-item"><a href="#!">Кухня &#8220;Interno&#8221;</a></li>
+                          <li class="menu-item "><a href="">Кухня «Bravo»</a></li>
+                          <li class="menu-item"><a href="">Кухня «FLAT»</a></li>
+                          <li class="menu-item"><a href="">Кухня «Color-mix»</a></li>
+                          <li class="menu-item"><a href="">Кухня «Amore Classic»</a></li>
+                          <li class="menu-item"><a href="">Кухня «Margo»</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-item skin__item"><a href="#">Серія Плівкові фасади <i class="fa fa-angle-right"
+                            aria-hidden="true"></i></a>
+                        <ul class="sub-menu skin__submenu">
+                          <li class="menu-item"><a href="">Кухня «Квадро»</a></li>
+                          <li class="menu-item"><a href="">Кухня «Кредо»</a></li>
+                          <li class="menu-item"><a href="">Кухня «Парма»</a></li>
+                          <li class="menu-item"><a href="">Кухня &#8220;Модена&#8221;</a></li>
+                          <li class="menu-item"><a href="">Кухня «maXima»</a></li>
+                          <li class="menu-item"><a href="" aria-current="page">Кухня «MoDa»</a></li>
+                          <li class="menu-item"><a href="">Кухня «Верона»</a></li>
+                          <li class="menu-item"><a href="">Кухня «Грація»</a></li>
+                          <li class="menu-item"><a href="">Кухня «Соло»</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-item profile__item"><a href="#">Серія Профільні фасади <i
+                            class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        <ul class="sub-menu profile__submenu">
+                          <li class="menu-item "><a href="">Кухня «RioLine»</a></li>
+                          <li class="menu-item "><a href="">Кухня «Alta»</a></li>
+                          <li class="menu-item "><a href="">Кухня «M.Gloss»</a></li>
+                          <li class="menu-item "><a href="">Кухня «Альбіна»</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu__list-item">
+                    <a href="#!" class="menu__list-link">контакти</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a href="#!" class="menu__list-link">гарантія</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a href="#!" class="menu__list-link">конструктор</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a href="#!" class="menu__list-link">розпродаж</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="kitchen">
+        <div class="kitchen__headbar">
+          <h1 class="page-title">Кухня «MoDa»</h1>
+        </div>
+        <div class="container">
+          <div class="kithen__content">
+            <div class="kitchen__img">
+              <img src="img/kitchen/Moda-1.jpg" alt="MoDa">
+            </div>
+            <div class="kitchen__text">
+              <p><span>Модульні кухні «МоDa»</span> – це яскраві глянцеві фасади, що відповідають сучасним концепціям
+                дизайну
+                у стилі модерн.</p>
+              <p>Кухонні фасади, декоровані плівкою ПВХ, вибирають дбайливі господарі, які прагнуть нових рішень, але не
+                бажають витрачати на меблі для кухні значну суму. Бюджетно й естетично — завдяки цим двом перевагам
+                глянцеві плівкові фасади сьогодні домінують на меблевому ринку та стають хітами продажів. Увагу покупців
+                також приваблює вражаюча тональна палітра. Ми пропонуємо фасади 18 кольорів, і в основному це яскраві та
+                активні, кілька з них — з ефектом металік. Великі глянцеві поверхні верхніх модулів вдало комбінуються з
+                вітринами із матового скла — скляні елементи ефектно виглядають та полегшують загальний інтер’єр.
+                Завершує ансамбль релінгова ручка двох розмірів — для стандартних та широких горизонтальних фасадів.</p>
+              <p>Ми намагаємося слідувати тенденціям європейської меблевої моди і в той же час враховуємо смаки та
+                вподобання наших клієнтів, тож ви самі можете стати дизайнером власної кухні, комбінуючи кольори та
+                модульні елементи так, як самі цього забажаєте.</p>
+            </div>
+          </div>
+          <div class="kitchen__gallery">
+            <div class="gallery__inner">
+              <div class="gallery__item-box">
+                <div class="item__box-row">
+                  <div class="gallery__item">
+                    <a href="img/kitchen/Moda-16.jpg" data-fancybox="images" data-width="852" data-height="635">
+                      <img src="img/kitchen/Moda-16.jpg" alt="img" width="129" height="238">
+                    </a>
+                  </div>
+                  <div class="gallery__item">
+                    <a href="img/kitchen/Moda-15.jpg" data-fancybox="images" data-width="852" data-height="635">
+                      <img src="img/kitchen/Moda-15.jpg" alt="img" width="129" height="238">
+                    </a>
+                  </div>
+                </div>
+                <div class="item__box-row">
+                  <div class="gallery__item">
+                    <a href="img/kitchen/Moda-5.jpg" data-fancybox="images" data-width="852" data-height="635">
+                      <img src="img/kitchen/Moda-4.jpg" alt="img" width="140" height="252">
+                    </a>
+                  </div>
+                  <div class="gallery__item">
+                    <a href="img/kitchen/Moda-15.jpg" data-fancybox="images" data-width="852" data-height="635">
+                      <img src="img/kitchen/Moda-15.jpg" alt="img" width="120" height="252">
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+              <div class="gallery__item-box">
+                <div class="item__box-row">
+                  <div class="gallery__item">
+                    <a href="img/kitchen/Moda-14.jpg" data-fancybox="images" data-width="852" data-height="635">
+                      <img src="img/kitchen/Moda-14.jpg" alt="img" width="168" height="288">
+                    </a>
+                  </div>
+                  <div class="item__box-col">
+                    <div class="gallery__item">
+                      <a href="img/kitchen/Moda-12.jpg" data-fancybox="images" data-width="852" data-height="635">
+                        <img src="img/kitchen/Moda-12.jpg" alt="img" width="232" height="121">
+                      </a>
+                    </div>
+                    <div class="gallery__item">
+                      <a href="img/kitchen/Moda-8.jpg" data-fancybox="images" data-width="852" data-height="635">
+                        <img src="img/kitchen/Moda-8.jpg" alt="img" width="232" height="157">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item__box-row">
+                  <div class="gallery__item">
+                    <a href="img/kitchen/Moda-2.jpg" data-fancybox="images" data-width="852" data-height="635">
+                      <img src="img/kitchen/Moda-2.jpg" alt="img" width="232" height="202">
+                    </a>
+                  </div>
+                  <div class="gallery__item">
+                    <a href="img/kitchen/Moda-1.jpg" data-fancybox="images" data-width="852" data-height="635">
+                      <img src="img/kitchen/Moda-1.jpg" alt="img" width="168" height="202">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery__item-box">
+                <div class="item__box-row">
+                  <div class="gallery__item">
+                    <a href="img/kitchen/Moda-11.jpg" data-fancybox="images" data-width="852" data-height="635">
+                      <img src="img/kitchen/Moda-11.jpg" alt="img" width="240" height="221">
+                    </a>
+                  </div>
+                  <div class="gallery__item">
+                    <a href="img/kitchen/Moda-10.jpg" data-fancybox="images" data-width="852" data-height="635">
+                      <img src="img/kitchen/Moda-10.jpg" alt="img" width="135" height="221">
+                    </a>
+                  </div>
+                </div>
+                <div class="item__box-row">
+                  <div class="gallery__item">
+                    <a href="img/kitchen/Moda-7.jpg" data-fancybox="images" data-width="852" data-height="635">
+                      <img src="img/kitchen/Moda-7.jpg" alt="img" width="160" height="269">
+                    </a>
+                  </div>
+                  <div class="gallery__item">
+                    <a href="img/kitchen/Moda-6.jpg" data-fancybox="images" data-width="852" data-height="635">
+                      <img src="img/kitchen/Moda-6.jpg" alt="img" width="215" height="269">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery__item-box">
+                <div class="gallery__item">
+                  <a href="img/kitchen/Moda-9.jpg" data-fancybox="images" data-width="852" data-height="635">
+                    <img src="img/kitchen/Moda-9.jpg" alt="img" width="230" height="265">
+                  </a>
+                </div>
+                <div class="gallery__item">
+                  <a href="img/kitchen/Moda-3.jpg" data-fancybox="images" data-width="852" data-height="635">
+                    <img src="img/kitchen/Moda-3.jpg" alt="img" width="230" height="225">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="fasade">
+        <div class="container">
+          <div class="fasade__inner">
+            <div class="fasade__moda">
+              <div class="section__title">
+                <h3>Кольори фасадів кухонь «МоДа»</h3>
+              </div>
+              <div class="fasade__moda-row">
+                <div class="fasade__item">
+                  <img src="img/fasade/01_Moda_chornyi_lak.jpg" alt="img">
+                  <span>Чорний лак</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/02_Moda_mokko_new_2.jpg" alt="img">
+                  <span>Мокко NEW</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/03_Moda_chili.jpg" alt="img">
+                  <span>Чері</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/04_Moda_oliva.jpg" alt="img">
+                  <span>Олива</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/05_Moda_perlina_2.jpg" alt="img">
+                  <span>Перлина NEW</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/07_Moda_lait.jpg" alt="img">
+                  <span>Лайт</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/18_Moda_zebrano.jpg" alt="img">
+                  <span>Зебрано</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/08_Moda_limon.jpg" alt="img">
+                  <span>Лимон</span>
+                </div>
+              </div>
+              <div class="fasade__moda-row">
+                <div class="fasade__item">
+                  <img src="img/fasade/09_Moda_oranj_2.jpg" alt="img">
+                  <span>Оранж</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/06_Moda_indigo_2.jpg" alt="img">
+                  <span>Індиго</span>
+                </div>
+                <div class="fasade__item fasade__item-none">
+                  <img src="img/fasade/17_Moda_kapuchino.jpg" alt="img">
+                  <a class="item__not-fasade" href="#!">
+                    <i class="fa fa-lock" aria-hidden="true">
+                    </i>
+                  </a>
+                  <span>Капучино</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/14_Moda_green.jpg" alt="img">
+                  <span>Грін</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/16_Moda_antracit_m.jpg" alt="img">
+                  <span>Антрацит</span>
+                  <span class="color__desc">металік</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/15_Moda_grey_m.jpg" alt="img">
+                  <span>Грей</span>
+                  <span class="color__desc">металік</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/11_moda_krem-brule.jpg" alt="img">
+                  <span>Крем-брюле</span>
+                  <span class="color__desc">металік</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/12_Moda_fistashkoviy_m.jpg" alt="img">
+                  <span>Фісташка</span>
+                  <span class="color__desc">металік</span>
+                </div>
+              </div>
+              <div class="fasade__moda-row fasade__last-row">
+                <div class="fasade__item">
+                  <img src="img/fasade/13_Moda_bordo_m.jpg" alt="img">
+                  <span>Бордо</span>
+                  <span class="color__desc">металік</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/10_Moda_sriblo_m.jpg" alt="img">
+                  <span>Срібло NEW</span>
+                  <span class="color__desc">металік</span>
+                </div>
+                <div class="fasade__item">
+                  <img src="img/fasade/000_Moda_vitrina-1.jpg" alt="img">
+                  <span>Вітрина</span>
+                  <span class="color__desc">алюмінієва </span>
+                </div>
+              </div>
+            </div>
+            <div class="fasade__door">
+              <div class="door__item">
+                <img src="img/fasade/fasad_moda_door.jpg" alt="img">
+                <div class="door__item-desc">
+                  <span>однотонний</span>
+                  <span>з ефектом металік</span>
+                </div>
+              </div>
+              <div class="door__item-content">Зверніть увагу на те, що деякі деталі, такі як дрібні блискітки у фасадах
+                з ефектом “металік”, можуть виглядати невиразно на зменшеному зображенні або при спогляданні виробу
+                вживу з далекої відстані. Для більш точного уявлення ознайомтеся із зразками виробів.
+              </div>
+            </div>
+            <div class="colors__col">
+              <div data-aos="fade-right" class="colors__table">
+                <div class="colors__row table__row">
+                  <div class="colors__title">Кольори стільниць 28 мм</div>
+                  <div class="colors__row-items">
+                    <div class="colors__row-item">
+                      <img src="img/table/stilnicya_dub-sonoma.jpg" alt="img">
+                      <span>Дуб сонома</span>
+                    </div>
+                    <div class="colors__row-item">
+                      <img src="img/table/stilnicya_keramika_chorna.jpg" alt="img">
+                      <a class="item__not-table" href="#!">
+                        <i class="fa fa-lock" aria-hidden="true">
+                        </i>
+                      </a>
+                      <span>Кераміка чорна</span>
+                    </div>
+                    <div class="colors__row-item">
+                      <img src="img/table/stilnicya_skay_svitlyi.jpg" alt="img">
+                      <span>Скай світлий</span>
+                    </div>
+                    <div class="colors__row-item">
+                      <img src="img/table/stilnicya_traventino.jpg" alt="img">
+                      <span>Травентіно</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="colors__row table__row">
+                  <div class="colors__title">Кольори стільниць 38 мм</div>
+                  <div class="colors__row-items">
+                    <div class="colors__row-item">
+                      <img src="img/table/stilnicya_dub-sonoma.jpg" alt="img">
+                      <span>Дуб сонома</span>
+                    </div>
+                    <div class="colors__row-item">
+                      <img src="img/table/stilnicya_keramika_chorna.jpg" alt="img">
+                      <span>Кераміка чорна</span>
+                    </div>
+                    <div class="colors__row-item">
+                      <img src="img/table/stilnicya_skay_svitlyi.jpg" alt="img">
+                      <span>Скай світлий</span>
+                    </div>
+                    <div class="colors__row-item">
+                      <img src="img/table/stilnicya_traventino.jpg" alt="img">
+                      <span>Травентіно</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="colors__content">
+                  <p>Розміри стільниць (мм): 200; 300; 400; 450; 500; 600; 700; 800; 900; 980; 1000; 1100; 1200; 1300;
+                    1400; 1500; 1600; 1700; 1800; 1900; 2000; 2100; 2200; 2300; 2400; 2500; 2600; 2700; 2800; 2900;
+                    3000; стільниця на кут 280 (ліва, права); стільниця на кут R 300 (ліва, права); стільниця на кут
+                    1800 (ліва, права); стільниця на кут R 1800 (ліва, права).</p>
+                  <p class="red">Cтільниця на мийку 880х880 (900х900) тільки в кольорах Скай світлий та Кераміка чорна.
+                  </p>
+                </div>
+              </div>
+              <div class="colors__table" data-aos="fade-left">
+                <div class="colors__row module__row">
+                  <div class="colors__title">Кольори кухонних модулів (корпусів)</div>
+                  <div class="colors__row-items">
+                    <div class="colors__row-item">
+                      <img src="img/table/Gorih-difuz-3-2.jpg" alt="img">
+                      <span>Горіх</span>
+                      <span class="module__desc">модулі стандарт</span>
+                    </div>
+                    <div class="colors__row-item">
+                      <img src="img/table/klen-difuz-3-2.jpg" alt="img">
+                      <span>Клен</span>
+                      <span class="module__desc">модулі стандарт</span>
+                    </div>
+                    <div class="colors__row-item">
+                      <img src="img/table/biliy.jpg" alt="img">
+                      <span>Білий</span>
+                      <span class="module__desc">модулі стандарт<br>
+                        модулі люкс</span>
+                    </div>
+                    <div class="colors__row-item">
+                      <img src="img/table/siriy_metalik.jpg" alt="img">
+                      <span>Сірий металік</span>
+                      <span class="module__desc">модулі стандарт</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="colors__row module__row">
+                  <div class="colors__row-items">
+                    <div class="colors__row-item">
+                      <img src="img/table/antracit_diffuse.jpg" alt="img">
+                      <span>Антрацит</span>
+                      <span class="module__desc">модулі стандарт<br>модулі люкс</span>
+                    </div>
+                    <div class="colors__row-item">
+                      <img src="img/table/dub_molochyi-2.jpg" alt="img">
+                      <span>Дуб молочний</span>
+                      <span class="module__desc">модулі стандарт<br>модулі люкс</span>
+                    </div>
+                    <div class="colors__row-item">
+                      <img src="img/table/stilnicya_skay_svitlyi.jpg" alt="img">
+                      <span>Венге</span>
+                      <span class="module__desc">модулі стандарт<br>модулі люкс</span>
+                    </div>
+                    <div class="colors__row-item">
+                      <img src="img/table/slonova_kistka.jpg" alt="img">
+                      <span>Слонова кістка</span>
+                      <span class="module__desc">модулі стандарт<br>модулі люкс</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="colors__row module__row">
+                  <div class="colors__row-items">
+                    <div class="colors__row-item">
+                      <img src="img/table/chornyi.jpg" alt="img">
+                      <span>Чорний</span>
+                      <span class="module__desc">модулі стандарт<br>модулі люкс</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fasade__info">
+              <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                Шановні покупці продукції виробництва меблевої фабрики “VIP-master”. Звертаємо Вашу увагу на те, що
+                колір, тон, насиченість, фактура меблів на зображеннях і в дійсності можуть незначно відрізнятися. Всі
+                зображення максимально наближені до оригінальних виробів, але певні умови можуть вносити нюанси у їх
+                відтворення та візуальне сприйняття. Для більш точного уявлення про зовнішній вигляд виробів, які вас
+                цікавлять, ви можете ознайомитися безпосередньо з актуальними зразками матеріалів, фурнітури та
+                комплектуючих, які використовує наша фабрика. Також ви можете ознайомитися з готовими виробами,
+                представленими на виставках тощо.</p>
+            </div>
+            <div class="accordion__content-box">
+              <div class="accordion-items">
+                <div class="accordion-items__content">
+                  <span class="down"><i class="fas fa-caret-right"></i></span>
+                  <div class="accordion__items-title">
+                    Верхні кухонні модулі</div>
+                </div>
+                <div class="accordion-text hidden">
+                  <div class="accordion-text__inner">
+                    <div class="accordion-text__box">
+                      <div class="red__desc">Увага. Не допускається монтаж верхніх модулів №14, №54 поруч з верхніми
+                        модулями №10, №11, №12, №13, №16, №17, №20, №21, №50, №51, №60, №61.</div>
+                      <ul class="module__select">
+                        <li><i class="fas fa-circle"></i>- ДСП колір корпуса на вибір*; </li>
+                        <li><i class="far fa-circle"></i>- ДСП, ДВП білий колір; </li>
+                        <li><i class="fas fa-circle"></i>- модель та колір фасаду на вибір*.</li>
+                      </ul>
+                      <span>*варіанти кольорів декорів, що використовує наша фабрика при виготовленні меблів.</span>
+                    </div>
+                    <div class="accordion__module-items">
+                      <div class="accordion__module-item">
+                        <div class="btn__box">
+                          <button class="button active" data-filter=".category-std">Стандарт</button>
+                          <button class="button" data-filter=".category-lux">Люкс</button>
+                        </div>
+                        <div class="item__col container">
+                          <div class="module-item__card mix category-std" data-order="1">
+                            <img src="img/upper module/1_verh_standart.jpg" alt="img">
+                            <span class="item__name"><span class="number">№1</span>
+                              Верх 20-72 Стандарт</span>
+                            <span class="item__size"><i class="far fa-plus-square"></i> можливий фасад 200x720 <br>
+                              (фасад та петлі замовляються окремо)</span>
+                          </div>
+                          <!-- <div class="module-item__card mix category-lux">
+                            <img src="img/upper module/1_verh_lux.jpg" alt="">
+                            <span class="item__name">№1 Верх 20-72 Люкс</span>
+                            <span class="item__size"> можливий фасад 200x720</span>
+                            <span class="item__desc"> (фасад та петлі замовляються окремо) </span>
+                          </div> -->
+                        </div>
+                      </div>
+                      <div class="accordion__module-item">
+                        <div class="btn__box">
+                          <button class="button" data-filter=".category-std">Стандарт</button>
+                          <button class="button" data-filter=".category-lux">Люкс</button>
+                        </div>
+                        <div class="item__col container">
+                          <div class="module-item__card mix category-std">
+                            <img src="img/upper module/1_verh_standart.jpg" alt="">
+                            <span class="item__name"><span class="number">№2</span>Верх 20-72 Стандарт</span>
+                            <span class="item__size"> можливий фасад 200x720</span>
+                            <span class="item__desc"> (фасад та петлі замовляються окремо) </span>
+                          </div>
+                          <!-- <div class="module-item__card mix category-lux">
+                            <img src="img/upper module/1_verh_lux.jpg" alt="">
+                            <span class="item__name">№1 Верх 20-72 Люкс</span>
+                            <span class="item__size"> можливий фасад 200x720</span>
+                            <span class="item__desc"> (фасад та петлі замовляються окремо) </span>
+                          </div> -->
+                        </div>
+                      </div>
+                      <div class="accordion__module-item">
+                        <div class="btn__box">
+                          <button class="button" data-filter=".category-std">Стандарт</button>
+                          <button class="button" data-filter=".category-lux">Люкс</button>
+                        </div>
+                        <div class="item__col container">
+                          <div class="module-item__card mix category-std">
+                            <img src="img/upper module/1_verh_standart.jpg" alt="">
+                            <span class="item__name"><span class="number">№3</span> Верх 20-72 Стандарт</span>
+                            <span class="item__size"> можливий фасад 200x720</span>
+                            <span class="item__desc"> (фасад та петлі замовляються окремо) </span>
+                          </div>
+                          <!-- <div class="module-item__card mix category-lux">
+                            <img src="img/upper module/1_verh_lux.jpg" alt="">
+                            <span class="item__name">№1 Верх 20-72 Люкс</span>
+                            <span class="item__size"> можливий фасад 200x720</span>
+                            <span class="item__desc"> (фасад та петлі замовляються окремо) </span>
+                          </div> -->
+                        </div>
+                      </div>
+                      <div class="accordion__module-item">
+                        <div class="btn__box">
+                          <button class="button" data-filter=".category-std">Стандарт</button>
+                          <button class="button" data-filter=".category-lux">Люкс</button>
+                        </div>
+                        <div class="item__col container">
+                          <div class="module-item__card mix category-std">
+                            <img src="img/upper module/1_verh_standart.jpg" alt="">
+                            <span class="item__name"><span class="number">№4</span> Верх 20-72 Стандарт</span>
+                            <span class="item__size"> можливий фасад 200x720</span>
+                            <span class="item__desc"> (фасад та петлі замовляються окремо) </span>
+                          </div>
+                          <!-- <div class="module-item__card mix category-lux">
+                            <img src="img/upper module/1_verh_lux.jpg" alt="">
+                            <span class="item__name">№1 Верх 20-72 Люкс</span>
+                            <span class="item__size"> можливий фасад 200x720</span>
+                            <span class="item__desc"> (фасад та петлі замовляються окремо) </span>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-items">
+                <div class="accordion-items__content">
+                  <span class="down"><i class="fas fa-caret-right"></i></span>
+                  <div class="accordion__items-title">Нижні кухонні модулі</div>
+                </div>
+                <div class="accordion-text hidden">
+                  <div class="accordion-text__inner">
+                    <div class="accordion-text__box">
+                      <ul class="module__select">
+                        <li><i class="fas fa-circle"></i>- ДСП колір корпуса на вибір*; </li>
+                        <li><i class="far fa-circle"></i>- ДСП, ДВП білий колір; </li>
+                        <li><i class="fas fa-circle"></i>- модель та колір фасаду на вибір*.</li>
+                      </ul>
+                      <span>*варіанти кольорів декорів, що використовує наша фабрика при виготовленні меблів.</span>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+     <section class="access">
+        <div class="container">
+          <div class="access__inner">
+            <div class="section__title">
+              <h3>Кольори фасадів кухонь «МоДа»</h3>
+            </div>
+            <div class="access__items">
+              <div class="access__item">
+                <img src="img/access/Ushilnuvach.png" alt="img" >
+                <div class="access__item-title">Ущільнювач цокольного плінтуса.</div>
+                <span class="access__desc">Запобігає потраплянню сміття і вологи під нижні кухонні модулі</span>
+              </div>
+              <div class="access__item">
+                <img src="img/access/nijki-2.png" alt="img" >
+                <div class="access__item-title">Відкриті кухонні ніжки.</div>
+                <span class="access__desc">Доступні у двох кольорах Срібло та Чорна.</span>
+              </div>
+              <div class="access__item">
+                <img src="img/access/pristenbort.png" alt="img">
+                <div class="access__item-title">Пристінний борт.</div>
+                <span class="access__desc">Захищає край стільниці від потрапляння вологи і сміття в щілину між
+                  стільницею
+                  і стіною.</span>
+              </div>
+            </div>
+            <p class="access__info">
+              Фабрика залишає за собою право вносити зміни в комплектацію, конструкцію і колірні відтінки виробів, що не
+              впливають на їх основне призначення.
+            </p>
+          </div>
+        </div>
+      </section> 
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__col" data-aos="fade-right">
+            <div class="footer__col-title">Контакти</div>
+            <ul class="footer__col-list">
+              <li><a href="">office@vip-master.ua</a></li>
+              <li><a href="tel:0456312115">0 (456) 31 21 15</a></li>
+              <li><a href="tel:+380981116969">+38 (098) 111 6969</a></li>
+              <li><a href="tel:+380951116969">+38 (098) 111 6969</a></li>
+            </ul>
+          </div>
+          <div class="footer__col" data-aos="fade-right">
+            <div class="footer__col-title">Режим роботи</div>
+            <ul class="footer__col-list">
+              <li>Відділ гуртових продажів</li>
+              <li>пн-пт з 9.00 до 17.00</li>
+              <li>вихідний: субота, неділя</li>
+            </ul>
+          </div>
+          <div class="footer__col" data-aos="fade-right">
+            <div class="footer__col-title">
+              <a href="www.vip-master.ua">VIP-master.ua</a>
+            </div>
+            <p class="footer__col-text">єдиний офіційний сайт меблевої фабрики “VIP-master”, яка розташовується за
+              адресою: Україна, Київська обл., м. Біла Церква, вул. Гайок, 4 П. Вся офіційна інформація фабрики
+              розміщується тільки на цьому сайті.</p>
+          </div>
+          <div class="footer__col insta__col">
+            <div class="footer__col-title ">Instagram</div>
+            <div class="insta__inner">
+              <div class="instagram__gallery">
+                <a href="https://www.instagram.com/p/CKO6BLBJhHa/" rel="noopener" target="_blank">
+                  <img src="img/insta/1_n.jpg" alt="instagram instagram image 0" />
+                </a>
+              </div>
+              <div class="instagram__gallery">
+                <a href="https://www.instagram.com/p/CMJ3UwUJQBb/" rel="noopener" target="_blank">
+                  <img src="img/insta/02_n.jpg" alt="instagram instagram image 0" />
+                </a>
+              </div>
+              <div class="instagram__gallery">
+                <a href="https://www.instagram.com/p/CLUd8tGJj_3/" rel="noopener" target="_blank">
+                  <img src="img/insta/03_n.jpg" alt="instagram instagram image 0" />
+                </a>
+              </div>
+              <div class="instagram__gallery">
+                <a href="https://www.instagram.com/p/CKO6BLBJhHa/" rel="noopener" target="_blank">
+                  <img src="img/insta/04_n.jpg" alt="instagram instagram image 0" />
+                </a>
+              </div>
+              <div class="instagram__gallery">
+                <a href="https://www.instagram.com/p/CIxaAmkJvtd/" rel="noopener" target="_blank">
+                  <img src="img/insta/05_n.jpg" alt="instagram instagram image 0" />
+                </a>
+              </div>
+              <div class="instagram__gallery">
+                <a href="https://www.instagram.com/p/CIpwf7zpmMc/" rel="noopener" target="_blank">
+                  <img src="img/insta/06_n.jpg" alt="instagram instagram image 0" />
+                </a>
+              </div>
+              <div class="instagram__gallery">
+                <a href="https://www.instagram.com/p/CIm-Xjipr3D/" rel="noopener" target="_blank">
+                  <img src="img/insta/07_n.jpg" alt="instagram instagram image 0" />
+                </a>
+              </div>
+              <div class="instagram__gallery">
+                <a href="https://www.instagram.com/p/CIlD5rJpnh0/" rel="noopener" target="_blank">
+                  <img src="img/insta/08_n.jpg" alt="instagram instagram image 0" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/jquery.instagramFeed.min.js"></script>
+  <script src="js/jquery.elimore.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+
+</html>
